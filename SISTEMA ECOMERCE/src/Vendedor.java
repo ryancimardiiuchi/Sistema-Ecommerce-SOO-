@@ -1,16 +1,8 @@
 
 import java.time.LocalDate;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author alunolages
- */
 public class Vendedor extends Usuario {
+
     LocalDate dataAdmissao;
 
     public Vendedor(LocalDate dataAdmissao, String nome, String cpf, String email, String senha, int telefone, String endereco) {
@@ -49,22 +41,15 @@ public class Vendedor extends Usuario {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
-    
-    
-   
-    
-    void vender(){
+
+    void vender() {
         System.out.println("Vendendo...");
     }
 
     @Override
     void mostrarFicha() {
         super.mostrarFicha();
-        System.out.println(dataAdmissao+" data de admissao" );
+        System.out.println(dataAdmissao + " data de admissao");
     }
 
-  
-    
-
-    
 }

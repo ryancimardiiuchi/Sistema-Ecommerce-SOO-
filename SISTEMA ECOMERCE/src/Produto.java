@@ -1,16 +1,8 @@
 
 import java.time.LocalDate;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author alunolages
- */
 public class Produto {
+
     protected int codigo = (int) Math.random();
     protected String nome;
     protected float valor;
@@ -18,8 +10,8 @@ public class Produto {
     protected String descricao;
     protected LocalDate dataCadastro;
 
-    public Produto( String nome, float valor, int estoque, String descricao, LocalDate dataCadastro) {
-    
+    public Produto(String nome, float valor, int estoque, String descricao, LocalDate dataCadastro) {
+
         this.nome = nome;
         this.valor = valor;
         this.estoque = estoque;
@@ -75,10 +67,8 @@ public class Produto {
         this.dataCadastro = dataCadastro;
     }
 
-    
     void mostrarProduto() {
-        System.out.println("Produto/Codigo="+codigo+"/nome"+nome+"/valor"+valor+"/estoque"+estoque+"/descrição"+descricao+"/data Cadastro"+dataCadastro+"/"); ;
+        System.out.println("Produto/Codigo=" + codigo + "/nome" + nome + "/valor" + valor + "/estoque" + estoque + "/descrição" + descricao + "/data Cadastro" + dataCadastro + "/");;
     }
-    
-    
+
 }

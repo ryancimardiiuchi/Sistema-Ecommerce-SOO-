@@ -1,21 +1,10 @@
-                /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author alunolages
- */
 public class Pagamento {
-    private int idTransacao;
+
+    private int idTransacao = (int) (Math.random() * 100) + 1;
     protected float valor;
     protected boolean confimacao;
     protected String tipo;
-
-    public Pagamento() {
-    }
-    
 
     public int getIdTransacao() {
         return idTransacao;
@@ -48,9 +37,8 @@ public class Pagamento {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-    
-    
-    void pagar(){
-        System.out.println("Debitamos" +valor+" da sua conta "+" atraves do metodo"+tipo);
+
+    void pagar() {
+        System.out.println("Debitamos" + valor + " da sua conta " + " atraves do metodo" + tipo);
     }
 }
