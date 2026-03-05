@@ -3,8 +3,8 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
 public class Avaliacao {
+
     Scanner ler = new Scanner(System.in);
     ArrayList<Integer> nota = new ArrayList<>();
     ArrayList<String> comentario = new ArrayList<>();
@@ -15,7 +15,6 @@ public class Avaliacao {
         this.cliente = cliente;
         this.pedido = pedido;
     }
-
 
     public Cliente getCliente() {
         return cliente;
@@ -33,25 +32,21 @@ public class Avaliacao {
         this.pedido = pedido;
     }
 
-  
-    
-    void avaliar(){
+    void avaliar() {
         LocalDate dataPrazo
-            = pedido.getData().plusDays(14);
+                = pedido.getData().plusDays(14);
         LocalDate hoje = LocalDate.now();
-            if (!hoje.isBefore(dataPrazo)) {
-                for(int i = 0;i<=pedido.produtos.size() ;i++){
-                    System.out.println("digite sua nota para o produto: " +pedido.produtos.get(i).getNome()); 
-                    nota.add(Integer.parseInt(ler.nextLine())); 
-                    System.out.println("digite seu comentario para o produto: " +pedido.produtos.get(i).getNome());
-                    comentario.add(ler.nextLine());
-                    
-                }
-                
-                
+        if (!hoje.isBefore(dataPrazo)) {
+            for (int i = 0; i < pedido.produtos.size(); i++) {
+                System.out.println("digite sua nota para o produto: " + pedido.produtos.get(i).getNome());
+                nota.add(Integer.parseInt(ler.nextLine()));
+                System.out.println("digite seu comentario para o produto: " + pedido.produtos.get(i).getNome());
+                comentario.add(ler.nextLine());
+            }
+
         } else {
             System.out.println("Ainda não chegou.");
         }
-       }
-        
+    }
+
 }
