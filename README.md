@@ -47,7 +47,8 @@ Classes filhas:
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netbeans/netbeans-original.svg" alt="NetBeans" width="50" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/drawio/drawio-original.svg" alt="Draw.io" width="50" height="50"/>
+<img width="50" height="50" alt="drawio" src="https://github.com/user-attachments/assets/3b7bc0e2-526d-4ab8-b19a-164cdb0f22ed" />
+
 </p>
 
 - **Java:** linguagem utilizada para a modelagem e implementação das classes.
