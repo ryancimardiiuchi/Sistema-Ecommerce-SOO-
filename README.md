@@ -47,7 +47,7 @@ Classes filhas:
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" width="50" height="50"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netbeans/netbeans-original.svg" alt="NetBeans" width="50" height="50"/>
-<img width="50" height="50" alt="drawio" src="https://github.com/user-attachments/assets/3b7bc0e2-526d-4ab8-b19a-164cdb0f22ed" />
+<img width="50" height="50" alt="idJ2cqy2cZ_1792446263993" src="https://github.com/user-attachments/assets/1dcd7363-e331-44f6-883d-664df976dfb6" />
 
 </p>
 
