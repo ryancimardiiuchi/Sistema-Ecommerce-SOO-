@@ -78,4 +78,4 @@ Desenvolvido como projeto acadêmico para estudo de Sistemas Orientados a Objeto
 ---
 
 *Projeto educacional desenvolvido em Java com foco em modelagem e orientação a objetos.*
-<img width="1536" height="1024" alt="Interface de E-commerce com Catálogo e Carrinho" src="https://github.com/user-attachments/assets/4bb8c1b3-d0bb-404e-8f3c-027ef2da465e" />
+
